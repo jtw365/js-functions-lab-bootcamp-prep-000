@@ -8,5 +8,9 @@ function happyHolidaysTo(name) {
 }
 
 function happyHolidayTo(holiday, name) {
-  console.log(`${holiday}, ${name}`)
+  console.log(`Happy ${holiday}, ${name}!`)
+}
+
+function holidayCountdown(days, holiday) {
+  console.log(`It's ${days} days until ${holiday}!`)
 }
